@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rat-engine", "rat-engine\rat-engine.vcxproj", "{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Debug|x64.ActiveCfg = Debug|x64
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Debug|x64.Build.0 = Debug|x64
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Debug|x86.Build.0 = Debug|Win32
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Release|x64.ActiveCfg = Release|x64
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Release|x64.Build.0 = Release|x64
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Release|x86.ActiveCfg = Release|Win32
+		{A1BFC6B2-3253-4D54-BB99-7EFE7F1EB76F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78483697-B614-473E-AC12-34D9DD039CD4}
+	EndGlobalSection
+EndGlobal
