@@ -39,11 +39,15 @@ int main() {
 
 	unsigned int elements[] = {
 		0, 1, 2,
-		0, 2, 3,
-
+		0, 2, 3
 	};
 
-	Object3D bruh(verts, 9);
+	Object3D bruh(verts, 8, elements, 2);
+
+	std::cout << sizeof(verts) << std::endl;
+	std::vector<glm::vec3> pts = bruh.getVerts();
+
+	
 
 	return 0;
 }
