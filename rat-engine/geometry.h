@@ -2,9 +2,6 @@
 
 #include <iostream>
 
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-
 #include <glm/glm.hpp>
 
 // DISPLAY OBJECTS
@@ -19,7 +16,6 @@ public:
 
 	glm::vec3* getPos();
 	void updatePos(glm::vec3 Pos1, glm::vec3 Pos2);
-
 };
 
 class Poly {
@@ -29,7 +25,6 @@ public:
 	Poly();
 	Poly(glm::vec3 Pos1, glm::vec3 Pos2, glm::vec3 Pos3);
 	friend std::ostream& operator<<(std::ostream& os, const Poly& poly);
-
 
 	glm::vec3* getPos();
 	void updatePos(glm::vec3 Pos1, glm::vec3 Pos2, glm::vec3 Pos3);

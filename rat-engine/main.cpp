@@ -5,6 +5,7 @@
 #include <GLFW\glfw3.h>
 
 #include "geometry.h"
+#include "object.h"
 
 using namespace std;
 
@@ -24,6 +25,25 @@ int main() {
 	glm::vec3 p1(1.0f, 1.0f, 1.0f);
 	glm::vec3 p2(2.0f, 0.0f, -1.0f);
 	glm::vec3 p3(3.0f, 2.0f, 3.0f);
+
+	float verts[] = {
+		0.0f, 0.0f, 0.0f,
+		1.0f, 0.0f, 0.0f,
+		0.0f, 1.0f, 0.0f,
+		1.0f, 1.0f, 0.0f,
+		0.0f, 0.0f, 1.0f,
+		1.0f, 0.0f, 1.0f,
+		0.0f, 1.0f, 1.0f,
+		1.0f, 1.0f, 1.0f
+	};
+
+	unsigned int elements[] = {
+		0, 1, 2,
+		0, 2, 3,
+
+	};
+
+	Object3D bruh(verts, 9);
 
 	return 0;
 }
